@@ -1,0 +1,28 @@
+body {background-image: url(images/fav.jpg)}
+body {background-size: cover}
+a {color:#000060; font-weight: bold;}
+h1 {color: darkblue; font-size:24px;text-align: center}
+h2 {color: darkblue; font-size:16px}
+p {color: darkblue; font-size:16px}
+table {
+    font-family: Sans-Serif;
+    font-size: 14px;
+    background: snow;
+    opacity: 0.9;
+    text-align: left;
+    border-radius: 10px;
+    border-color: #000060;
+}
+.res {
+    font-family: Sans-Serif;
+    font-size: 16px;
+    text-align: left;
+    color: darkblue;
+}
+
+#ans {
+    border-collapse: collapse;
+    border-width: 5px;
+    font-size: 16px;
+    text-align: center;
+}
