@@ -217,7 +217,7 @@ function drawPoint(canv, x, y, r) {
     ctx.closePath();//this
     ctx.strokeStyle = "black";//part
     ctx.fillStyle = "black";//delete
-    ctx.stroke();//to have dif colors
+    ctx.stroke();//to have dif colors with this code nothing was checked
 
     if (r < 1 || r > 4) {
     }
