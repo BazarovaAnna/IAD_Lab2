@@ -5,8 +5,11 @@
     <head>
         <meta charset='UTF-8'>
         <title>Points</title>
-        <link href=\"Style.css\" rel=\"stylesheet\">
+        <style>
+            <%@include file='Style.css' %>
+        </style>
     </head>
+
      <body>
     <br>
     <table class='tab' align='center' cellspacing=\"1px\">
@@ -30,16 +33,16 @@
                     Point p = (Point) list.get(i);%>
                     <tr>
                         <td>
-                            <%p.getX();%>
+                            <%=p.getX()%>
                         </td>
                         <td>
-                            <%p.getY();%>
+                            <%=p.getY()%>
                         </td>
                         <td>
-                            <%p.getR();%>
+                            <%=p.getR()%>
                         </td>
                         <td>
-                            <%p.getIsInArea();%>
+                            <%=p.getIsInArea()%>
                         </td>
                     </tr>
         <%}%>
