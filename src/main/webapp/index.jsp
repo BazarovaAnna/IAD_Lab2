@@ -124,7 +124,9 @@
 
     </table>
 </div>
-
+<footer>
+    <marquee behavior="scroll" direction="right" loop="10000" scrollamount="10"><img src="images/nyan.png" style="max-height:200px;"></marquee>
+</footer>
 </body>
 
 </html>
